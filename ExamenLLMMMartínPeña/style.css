@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Retro;
+    src: url(font/RETROTECH.ttf);
+}
+body{
+    background: url(img/fondoretro.jpg);
+    background-size: cover;
+}
+h1{
+    font-family: Retro;
+    color: white;
+    font-size: 52px;
+    text-align: center;
+}
+table{
+    width: 800px;
+    height: 500px;
+    border-width: 5px;
+    border-style: groove;
+    color: rgb(265,175,5);
+    border-radius: 10px;
+    background-color: rgb(62, 59, 59);
+    margin: auto;
+}
+tr, td{
+    height: 40px;
+    width: 40px;
+    border-width: 5px;
+    border-style: groove;
+    color: gray;
+    border-radius: 2px;
+    background-color: rgb(62, 59, 59);
+}
+.marcador{
+    font-family: Retro;
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+#marcador{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+.f1{
+    Border: 1px outset grey;
+    background-color: rgb(62, 59, 59);
+}
+.f2{
+    Border: 1px outset grey;
+    background-color: rgb(239, 5, 5);
+}
+.f3{
+    Border: 1px outset grey;
+    background-color: rgb(239, 216, 5);
+}
+.f4{
+    Border: 1px outset grey;
+    background-color: blue;
+}
+.f5{
+    Border: 1px outset grey;
+    background-color: violet;
+}
+.f6{
+    Border: 1px outset grey;
+    background-color: green;
+}
+.vacio{
+    border: 0px;
+}
+#bola{
+    border-radius: 100%;
+    border-color: white;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin: auto;
+}
